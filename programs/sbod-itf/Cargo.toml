@@ -15,8 +15,8 @@ test-bpf = []
 debug = []
 
 [dependencies]
-anchor-lang = ">=0.28.0"
-solana-program = ">= 1.16.18"
+anchor-lang = "0.28.0"
+solana-program = "1.16.18"
 bytemuck = { version = "1.4.0", features = ["derive", "min_const_generics"] }
 rust_decimal = "1.32.0"
 static_assertions = "1.1.0"
